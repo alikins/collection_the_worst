@@ -1,0 +1,15 @@
+# deprecated sudo
+- name: task using sudo instead of become
+  debug:
+    msg: "nothing useful"
+  sudo: root
+
+- name: task that uses deprecated always_run
+  debug:
+    msg: "a not useful thing to say always"
+  always_run: true
+
+- name: task using local_action
+  debug:
+    msg: "also not useful"
+  when: "{{ icq_name | toupper() }}"
