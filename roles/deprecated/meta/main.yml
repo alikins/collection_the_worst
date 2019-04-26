@@ -2,7 +2,7 @@ galaxy_info:
   author: Adrian Likins
   description: nothing
 
-  license: GPLv3
+  license: SomeMadeUpLicense
 
   min_ansible_version: 2.4
 
